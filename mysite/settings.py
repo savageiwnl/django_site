@@ -29,7 +29,8 @@ DEBUG = True
 ALLOWED_HOSTS = [
     '127.0.0.1',
     'localhost',
-    'e859-89-113-159-34.ngrok-free.app'  
+    'e859-89-113-159-34.ngrok-free.app',
+    'django-site-gqfn.onrender.com'  
 ]
 
 
