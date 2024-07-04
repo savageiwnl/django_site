@@ -1,0 +1,146 @@
+li a {
+    color: rgb(0, 183, 255);
+}
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #4e0e61;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.poll {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.poll h2 {
+    color: #333;
+    font-size: 20px;
+}
+
+.poll p {
+    color: #666;
+}
+
+.poll ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.poll ul li {
+    margin-bottom: 5px;
+}
+
+button {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049; /
+}
+
+ul li a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold; 
+    transition: color 0.3s; 
+}
+
+ul li a:hover {
+    color: #0056b3; 
+}
+
+form {
+    text-align: left;
+    max-width: 125px;
+    margin-left: 20px;
+    padding: 0px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    border: none;
+    margin: 10px 0;
+    padding: 0;
+}
+
+legend {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+label {
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+h1 {
+    font-size: 42px;
+    margin-left: 20px auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    background-color: rgb(0, 183, 255, 0.2);
+    padding: 50px;
+    border-radius: 0px;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+}
