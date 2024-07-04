@@ -1,0 +1,11 @@
+# Exported from Render on 2024-07-04T12:47:15Z
+services:
+- type: web
+  name: django_site
+  runtime: python
+  repo: https://github.com/savageiwnl/django_site
+  plan: free
+  region: frankfurt
+  buildCommand: pip install -r requirements.txt
+  startCommand: gunicorn mysite.wsgi:application
+version: "1"
