@@ -1,0 +1,28 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Главная страница</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'main/styles.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать на главную страницу!</h1>
+    </header>
+    <div class="container">
+        <div class="card">
+            <h2>Информация</h2>
+            <p>Этот сайт был создан по программе обучения backend разработке от Salt and Pepper</p>
+        </div>
+        <div class="card">
+            <h2>Навигация</h2>
+            <p><a href="{% url 'polls:index' %}">Перейти на Polls</a></p>
+            <p><a href="/admin/">Перейти на Admin панель</a></p>
+        </div>
+        <div class="card">
+            <h2>Разработчик</h2>
+            <p>Разработал: <a href="https://t.me/thegreatsene4ka" target="_blank">Арсений Беляев</a> </p>
+        </div>
+    </div>
+</body>
+</html>

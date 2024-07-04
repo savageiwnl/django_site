@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <title>Опросы</title>
+    <link rel="stylesheet" href="{% static '/polls/style.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Список опросов</h1>
+    </header>
+{% if latest_question_list %}
+    <ul>
+    {% for question in latest_question_list %}
+        <li><a href="{% url 'polls:detail' question.id %}">{{ question.question_text }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>Опросы отсутствуют.</p>
+{% endif %}
+
+</body>
+<button onclick="window.location.href = '{% url 'home' %}';" class="btn">На главную</button>
+</html>
